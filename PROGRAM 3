@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+int main()
+{
+    int a;
+    int b;
+    int VALUE;
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+    VALUE = a * b;
+    printf("VALUE= %d\n", VALUE);
+    return 0;
+}
