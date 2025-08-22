@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    float g, d, n;
+    printf("enter gross sales amount: ");
+    scanf("%f", &g);
+    d = 0.10f * g;  
+    n = g - d;           
+    printf("\nnet Sales   : %.2f\n", n);
+    return 0;
+}
