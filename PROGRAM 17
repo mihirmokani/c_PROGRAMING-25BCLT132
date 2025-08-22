@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int s,p,a;
+    printf("Enter length of side of square: ");
+    scanf("%d ",&s);\
+    p= 4 * s;
+    printf("Perimeter of square: %d\n", p);
+    a= s * s;
+    printf("Area of square: %d\n", a);
+}
