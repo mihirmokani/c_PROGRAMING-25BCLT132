@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    float grams,kilogram;
+    printf("Enter weight in grams");
+    scanf("%f", &grams);
+    kilogram= grams / 1000.0;
+    printf("%.2f grams is %.3f kilogram.\n", grams, kilogram);
+    return 0;
+}
