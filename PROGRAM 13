@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    float bytes, KB, MB, GB;
+    printf("Enter size in bytes: ");
+    scanf("%f", &bytes);
+    KB = bytes / 1024;
+    MB = bytes / (1024 * 1024);
+    GB = bytes / (1024 * 1024 * 1024);
+    printf("\n%.2f Bytes = %.2f KB", bytes, KB);
+    printf("\n%.2f Bytes = %.2f MB", bytes, MB);
+    printf("\n%.2f Bytes = %.2f GB\n", bytes, GB);
+    return 0;
+}
